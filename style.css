@@ -1,0 +1,102 @@
+/* Style hr to be under the image visually */
+.profile-img + hr {
+    position: absolute;
+    top: calc(40px + 40rem + 20px); /* 40px top + image height + margin */
+    right: 0;
+    width: 40rem;
+    margin-right: -2rem;
+    border: none;
+    border-top: 3px solid #fff;
+    z-index: 1;
+}
+/* Profile image at top left */
+.profile-img {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 40rem;
+    height: 40rem;
+    object-fit: cover;
+    margin-top: 1rem;
+    margin-right: -2rem;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #030912;
+    margin-left: 5rem;
+    margin-right: 35px;
+
+}
+nav {
+    color: white;
+    padding: 10px 35px 10px 35px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+nav ul li a:hover {
+    background: #0c233f;
+    color: #fff;
+}
+.main h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+}
+.main p {
+    font-size: 1rem;
+    line-height: 1.2;
+}
+.main{
+    width: 100%;
+    height: 40rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 40rem;
+    margin-top: 10rem;
+}
+.btn{
+    background-color:#101d2e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    width:7rem;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+}
+.btn:hover{
+    background-color: #0c233f;
+}
+hr{
+   top
+}
+/*About me section*/
+.abtme{
+     width: 100%;
+     height: 40rem;    
+     color: white;
+}
+
